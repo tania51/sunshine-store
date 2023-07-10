@@ -3,11 +3,14 @@ body {
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
+.container {
+    padding: 0 10%;
+}
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Lato', sans-serif;
 }
 .description {
-    font-size: 18px;
+    font-size: 16px;
     color: #272727;
     font-weight: 400;
 }
@@ -23,6 +26,11 @@ h1, h2, h3, h4, h5, h6, p {
 .tab-btn a {
     text-decoration: none;
     color: #fff;
+}
+.title {
+    font-size: 26px;
+    color: #272727;
+    font-weight: 900;
 }
 /* navbar starts here */
 .navbar-section {
@@ -63,4 +71,52 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .banner-content p {
     margin-top: -22px;
+    width: 60%;
+}
+.featured-content {
+    width: 54%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+}
+.featured-img-content {
+    display: flex;
+    padding-top: 30px;
+}
+.card {
+    height: 324px;
+    width: 300px;
+    background-color: #f2dee7;
+    border-radius: 50% 50% 0 0;
+    position: relative;
+}
+.card-content {
+    text-align: center;
+}
+.tab-flower {
+    margin: 0 2%;
+}
+.tab-img {
+    width: 170px;
+    position: absolute;
+    right: 22%;
+    bottom: 0;
+}
+.tab-img2 {
+    width: 200px;
+    position: absolute;
+    top: 24%;
+    right: 14%;
+}
+.flower-title {
+    font-size: 18px;
+    color: #272727;
+    display: inline-block;
+    padding-top: 20px;
+}
+.tab-bg {
+    background-color: #d9eff1;
+}
+.tab-bg2 {
+    background-color: #e3ebdb;
 }
