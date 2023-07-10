@@ -161,3 +161,49 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0 15%;
     font-weight: 400;
 }
+
+/*insta section starts*/
+.insta-container {
+    margin: 6% 10%;
+}
+.insta-content {
+    text-align: center;
+}
+.para2 {
+    color: #272727;
+    padding: 0 20%;
+    font-weight: 400;
+}
+.insta-images {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.insta-img {
+    width: 220px;
+    height: 240px;
+}
+
+/*subscription section starts*/
+.subscription-container {
+    margin: 6% 10%;
+    background-image: url('../images/bg.png');
+    background-size: cover;
+    backgroun-repeat: no-repeat;
+    padding: 6% 0;
+    text-align: center;
+}
+.tab-title {
+    font-size: 28px;
+    color: #272727;
+    font-weight: 900;
+}
+.tab-form input {
+    padding: 10px 220px 10px 10px;
+    border: none;
+    margin-right: 4px;
+}
+.para3 {
+    margin-top: -12px;
+    padding-bottom: 8px;
+}
