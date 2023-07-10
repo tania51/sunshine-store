@@ -199,11 +199,27 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 900;
 }
 .tab-form input {
-    padding: 10px 220px 10px 10px;
+    padding: 12px 220px 12px 10px;
     border: none;
     margin-right: 4px;
 }
 .para3 {
     margin-top: -12px;
     padding-bottom: 8px;
+}
+.tab-btn2 {
+    padding: 12px 20px;
+}
+.foot-container {
+    padding: 10% 30%;
+    background-color: #000;
+    text-align: center;
+}
+.tab-foot-title {
+    color: #fff;
+}
+.para4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
 }
