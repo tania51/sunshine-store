@@ -148,5 +148,16 @@ h1, h2, h3, h4, h5, h6, p {
 .deal-container {
     display: flex;
     background-color: #fef6f8;
-    padding: 6% 10%;
+    padding: 6% 16% 6% 8%;
+    height: 200px;
+    text-align: center;
+    justify-content: space-between;
+}
+.tab-red {
+    color: #E55473;
+}
+.para {
+    color: #272727;
+    padding: 0 15%;
+    font-weight: 400;
 }
