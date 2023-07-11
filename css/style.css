@@ -239,6 +239,24 @@ h1, h2, h3, h4, h5, h6, p {
     height: 240px;
 }
 
+/* video section starts */
+.video-container {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.video-title {
+    text-align: center;
+    margin-bottom: 12px;
+}
+.video-hr {
+    width: 10%;
+    margin: 0 45%;
+    color: #000;
+}
+.video-content {
+    padding-top: 30px;
+}
+
 /*member section starts*/
 
 .member-content {
