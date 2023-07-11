@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6, p {
 /* navbar starts here */
 .navbar-section {
     display: flex;
-    padding: 0 10%;
+    padding: 2% 10% 0 10%;
     justify-content: space-between;
     background-color: #fceef1;
 }
@@ -72,13 +72,28 @@ h1, h2, h3, h4, h5, h6, p {
     width: 500px;
 }
 .banner-content h1 {
-    font-size: 45px;
+    font-size: 52px;
     font-weight: 900;
     color: #272727;
 }
 .banner-content p {
     margin-top: -22px;
     width: 80%;
+}
+.free-delivery {
+    height: 100px;
+    background-color:#093336;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+.free-delivery p {
+    font-size: 22px;
+    font-weight: 800;
+}
+.free-delivery a {
+    color: rgb(167, 163, 163);
 }
 
 /*
@@ -212,7 +227,9 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0 15%;
     font-weight: 400;
 }
-
+.flower-sale {
+    font-size: 52px;
+}
 /*insta section starts*/
 /*
 .insta-container {
@@ -303,9 +320,11 @@ h1, h2, h3, h4, h5, h6, p {
 .tab-btn2 {
     padding: 12px 20px;
 }
+
+/* footer starts */
 .foot-container {
-    padding: 10% 30%;
-    background-color: #000;
+    padding: 8% 25%;
+    background-color: #00090a;
     text-align: center;
 }
 .tab-foot-title {
