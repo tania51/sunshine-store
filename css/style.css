@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     padding: 0 10%;
     justify-content: space-between;
+    background-color: #fceef1;
 }
 .navbar {
     display: flex;
@@ -61,7 +62,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* banner section starts from here */
 .banner-container {
-    height: 400px;
+    height: 500px;
     display: flex;
     background-color: #fceef1;
     padding: 4% 10% 0 10%;
@@ -77,7 +78,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .banner-content p {
     margin-top: -22px;
-    width: 60%;
+    width: 80%;
 }
 
 /*
@@ -296,4 +297,50 @@ h1, h2, h3, h4, h5, h6, p {
     color: #fff;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* form starts here */
+.form-container {
+    display: flex;
+    padding-bottom: 20px;
+}
+.tab-form-title {
+    font-size: 32px;
+    font-weight: 600;
+}
+.form-title {
+    font-size: 17px;
+    font-weight: 700;
+}
+.para6 {
+    font-size: 15px;
+    margin-top: -14px;
+    color: #272727;
+    font-weight: 400;
+}
+.para7 {
+    font-size: 15px;
+    margin-top: -4px;
+    color: #272727;
+    font-weight: 400;
+}
+.tab-input {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.form-content input {
+    display: block;
+    padding: 14px 70px 14px 20px;
+    border: 1px solid #dddddd;
+}
+.form-content textarea {
+    padding: 14px 70px 14px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #dddddd;
+}
+.form-content input[type="submit"] {
+    color: #fff;
+    cursor: pointer;
 }
