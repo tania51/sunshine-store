@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: 'Lato', sans-serif;
 }
 .description {
-    font-size: 16px;
+    font-size: 18px;
     color: #272727;
     font-weight: 400;
 }
@@ -80,6 +80,30 @@ h1, h2, h3, h4, h5, h6, p {
     width: 60%;
 }
 
+/*
+
+
+*/
+.about-container {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+}
+.about-img {
+    width: 50%;
+    margin-right: 5%;
+}
+.about-content {
+    width: 45%;
+}
+.tab-about-img {
+    width: 100%;
+}
+.tab-hr {
+    width: 14%;
+    color: #000;
+    float: left;
+}
 /* featured section starts*/
 /*
 .featured-container {
@@ -214,6 +238,27 @@ h1, h2, h3, h4, h5, h6, p {
     height: 240px;
 }
 
+/*member section starts*/
+
+.member-content {
+    display: flex;
+    text-align: center;
+}
+.shop-member {
+    margin-right: 40px;
+}
+.member-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.member-description {
+    font-size: 18px;
+}
+.member-title {
+    font-size: 20px;
+    color: #272727;
+}
 /*subscription section starts*/
 .subscription-container {
     background-image: url('../images/bg.png');
