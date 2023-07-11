@@ -32,6 +32,12 @@ h1, h2, h3, h4, h5, h6, p {
     color: #272727;
     font-weight: 900;
 }
+.tab-container {
+    margin: 6% 10%;
+}
+.tab-container2 {
+    padding: 6% 10%;
+}
 /* navbar starts here */
 .navbar-section {
     display: flex;
@@ -73,19 +79,34 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: -22px;
     width: 60%;
 }
+
+/* featured section starts*/
+/*
+.featured-container {
+    margin: 6% 10%;
+}
+*/
+
 .featured-content {
-    width: 54%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
-    padding-top: 70px;
+}
+.para5 {
+    padding: 0 20%;
 }
 .featured-img-content {
     display: flex;
     padding-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-content {
+    width: 300px;
 }
 .card {
-    height: 318px;
-    width: 280px;
+    height: 300px;
+    width: 100%;
     background-color: #f2dee7;
     border-radius: 50% 50% 0 0;
     position: relative;
@@ -96,17 +117,20 @@ h1, h2, h3, h4, h5, h6, p {
 .tab-flower {
     margin: 0 2%;
 }
+.card img {
+    width: 60%;
+}
 .tab-img {
-    width: 170px;
+ /*   width: 200px; */
     position: absolute;
     right: 22%;
     bottom: 0;
 }
 .tab-img2 {
-    width: 200px;
+    width: 260px;
     position: absolute;
-    top: 24%;
-    right: 14%;
+    top: 28%;
+    right: 20%;
 }
 .flower-title {
     font-size: 18px;
@@ -122,9 +146,11 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #e3ebdb;
 }
 /* support section starts */
+/*
 .container2 {
     margin: 8% 10%;
 }
+*/
 .support-content {
     display: flex;
     justify-content: center;
@@ -163,9 +189,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /*insta section starts*/
+/*
 .insta-container {
     margin: 6% 10%;
 }
+*/
+
+
 .insta-content {
     text-align: center;
 }
@@ -176,17 +206,16 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .insta-images {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 30px;
 }
 .insta-img {
-    width: 220px;
+    width: 100%;
     height: 240px;
 }
 
 /*subscription section starts*/
 .subscription-container {
-    margin: 6% 10%;
     background-image: url('../images/bg.png');
     background-size: cover;
     backgroun-repeat: no-repeat;
