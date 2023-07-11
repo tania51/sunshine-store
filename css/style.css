@@ -321,20 +321,6 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 12px 20px;
 }
 
-/* footer starts */
-.foot-container {
-    padding: 8% 25%;
-    background-color: #00090a;
-    text-align: center;
-}
-.tab-foot-title {
-    color: #fff;
-}
-.para4 {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 400;
-}
 
 /* form starts here */
 .form-container {
@@ -381,4 +367,19 @@ h1, h2, h3, h4, h5, h6, p {
     color: #fff;
     cursor: pointer;
     padding: 10px 20px;
+}
+
+/* footer starts */
+.foot-container {
+    padding: 8% 25%;
+    background-color: #00090a;
+    text-align: center;
+}
+.tab-foot-title {
+    color: #fff;
+}
+.para4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
 }
